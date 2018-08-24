@@ -28,3 +28,8 @@
 			4）尽量顺序操作数据！
 			5）根据引擎选择合理的锁粒度！
 			6）事务中的处理时间尽量短！
+### jdbcTemplate:
+		jdbcTemplate类是Spring对JDBC支持类库中的核心类
+		jdbcTemplate负责：
+			创建和释放资源
+			执行SQL语句、存储过程，并通过ResultSet来返回数据
