@@ -33,3 +33,18 @@
 		jdbcTemplate负责：
 			创建和释放资源
 			执行SQL语句、存储过程，并通过ResultSet来返回数据
+			
+### ajax:
+		$.ajax({  
+		     type: "POST",  
+		     url: "/login",  
+		     contentType: 'application/x-www-form-urlencoded;charset=utf-8',  
+		     data: {username:$("#username").val(), password:$("#password").val()},  
+		     dataType: "json",  
+		     success: function(data){  
+				 console.log(data);  
+			      }，  
+		     error:function(e){  
+				 console.log(e);  
+		     }  
+		 });  
