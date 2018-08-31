@@ -48,3 +48,48 @@
 				 console.log(e);  
 		     }  
 		 });  
+### Linux
+		常见目录：
+			根目录下的bin和sbin，usr目录下的bin和sbin，这四个目录用来保存系统命令。
+			boot启动目录。
+			dev特殊文件保存目录。
+			etc系统配置文件目录。
+			root超级用户的家目录，home普通用户的家目录。
+			lib函数库的保存位置。
+			media，mnt，misc（空目录）外接存储设备
+			proc和sys是保存的是内存的挂载点，不能直接操作。
+			tmp临时目录
+			usr系统软件资源目录
+			var保存系统可变文档目录
+		常见命令（命令 [选项] [参数] ）：
+			ls 查询目录中内容
+			vi 编辑文件
+			touch 创建文件
+			cat 打印文件内容
+			mkdir 建立目录 -p 递归创建
+			cd 切换所在目录
+			pwd 查询所在目录位置
+			rmdir 删除目录（只能删除空白目录）
+			rm -rf 删除目录或文件 -r 删除目录 -f 强制
+			cp 复制命令 -a 相当于 -pdf所有内容都复制
+			mv 剪切或改名命令（在不同文件是复制，相同位置是改名）
+			ln 连接命令 -s 软连接（类似Windows中的快捷方式）
+			locate 文件搜索命令（在后台数据库中搜索）
+			find	文件搜索命令（能进行全目录搜索，也可按搜索范围和条件搜索）
+			whereis 命令搜索命令（能看帮助文档所在地）
+			which 命令搜索命令（能看别名）
+			grep 搜索字符命令
+			man 帮助命令 -f 查看级别 -k 查看包含某字符的所有命令
+			--help 其他帮助命令
+			help 只能获取shell内部命令帮助
+			info 详细帮助命令
+			zip 压缩文件 -r 压缩目录 gzip bzip2（不能压缩目录）
+			unzip 解压缩 gunzip bunzip2
+			tar -zcvf压缩.tar.gz -jcvf 压缩.tar.bz2
+			tar -zxvf解压缩 -jcxf解压缩
+			shotdown [选项] 时间 -c 取消上一个命令 -h 关机 -r 重启
+			logout 退出登录命令
+			mount 挂载命令
+			w 查看登录用户信息 
+			echo 输出命令 -e 支持控制字符转换
+			history 历史命令
