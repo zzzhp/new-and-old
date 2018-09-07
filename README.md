@@ -96,3 +96,7 @@
 ## 知新:
 ### p3c:
 		p3c是阿里的java代码规约插件，可以对自身起一个很好的规范作用。
+### quartz:
+		quartz是由java编写的作业调度框架，在spring中可以很方便的完成定时任务。
+		quartz主要由Schedule（任务调度器），Job（作业任务）和Trigger（触发器）三部分组成。
+		其中Job配置你想要定时执行的方法，Trigger配置你要执行方法的时间（运用cron表达式）,Schedule用来将两者结合到一起。
