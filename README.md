@@ -83,6 +83,7 @@
 			--help 其他帮助命令
 			help 只能获取shell内部命令帮助
 			info 详细帮助命令
+			wget 文件下载命令
 			zip 压缩文件 -r 压缩目录 gzip bzip2（不能压缩目录）
 			unzip 解压缩 gunzip bunzip2
 			tar -zcvf压缩.tar.gz -jcvf 压缩.tar.bz2
