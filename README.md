@@ -100,3 +100,7 @@
 		quartz是由java编写的作业调度框架，在spring中可以很方便的完成定时任务。
 		quartz主要由Schedule（任务调度器），Job（作业任务）和Trigger（触发器）三部分组成。
 		其中Job配置你想要定时执行的方法，Trigger配置你要执行方法的时间（运用cron表达式）,Schedule用来将两者结合到一起。
+### MYbatis:
+		MyBatis 主要完成两件事情
+			1）根据JDBC 规范建立与数据库的连接
+			2）通过Annotaion/XML+JAVA反射技术,实现 Java 对象与关系数据库之间相互转化
