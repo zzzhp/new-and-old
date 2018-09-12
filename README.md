@@ -109,3 +109,7 @@
 		MyBatis 主要完成两件事情
 			1）根据JDBC 规范建立与数据库的连接
 			2）通过Annotaion/XML+JAVA反射技术,实现 Java 对象与关系数据库之间相互转化
+### maven:
+		maven项目就是在java项目和web项目的上面包裹了一层maven。
+		maven主要是通过pom配置文件去导入jar包，而不用去手动导入。
+		maven需要从仓库中导入需要的jar包，仓库分为本地仓库，第三方仓库和中央仓库。
