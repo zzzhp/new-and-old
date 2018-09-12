@@ -48,6 +48,10 @@
 				 console.log(e);  
 		     }  
 		 });  
+### Hadoop:
+		环境搭建
+		组件构成和功能
+		代码示例
 ### Linux
 		常见目录：
 			根目录下的bin和sbin，usr目录下的bin和sbin，这四个目录用来保存系统命令。
