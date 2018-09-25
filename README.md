@@ -113,3 +113,5 @@
 		maven项目就是在java项目和web项目的上面包裹了一层maven。
 		maven主要是通过pom配置文件去导入jar包，而不用去手动导入。
 		maven需要从仓库中导入需要的jar包，仓库分为本地仓库，第三方仓库和中央仓库。
+### spring boot
+		SpringBoot构造并且返回一个json对象（代码见）
