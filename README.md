@@ -114,4 +114,4 @@
 		maven主要是通过pom配置文件去导入jar包，而不用去手动导入。
 		maven需要从仓库中导入需要的jar包，仓库分为本地仓库，第三方仓库和中央仓库。
 ### spring boot
-		SpringBoot构造并且返回一个json对象（代码见）
+		SpringBoot构造并且返回一个json对象（代码 https://github.com/zzzhp/springboot-study）
