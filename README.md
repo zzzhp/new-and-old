@@ -117,3 +117,5 @@
 		代码:[https://github.com/zzzhp/springboot-study/]
 		SpringBoot构造并且返回一个json对象
 		SpringBoot使用devtools进行热部署
+		SpringBoot资源属性配置
+		SpringBoot整合模板引擎
