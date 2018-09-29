@@ -121,3 +121,4 @@
 		SpringBoot整合模板引擎
 		SpringBoot异常处理
 		SpringBoot整合MyBatis
+		SpringBoot整合Redis
