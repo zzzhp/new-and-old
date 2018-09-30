@@ -123,3 +123,4 @@
 		SpringBoot整合MyBatis
 		SpringBoot整合Redis
 		SpringBoot整合定时任务
+		SpringBoot整合异步任务
