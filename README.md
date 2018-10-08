@@ -130,4 +130,5 @@
 		首先让我们看几个基本的消息系统术语：
 		Kafka将消息以topic为单位进行归纳。
 		将向Kafka topic发布消息的程序成为producers.
+		将预订topics并消费消息的程序成为consumer.
 
