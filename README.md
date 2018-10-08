@@ -125,3 +125,5 @@
 		SpringBoot整合定时任务
 		SpringBoot整合异步任务
 		SpringBoot使用拦截器
+### kafka
+		Kafka是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。
