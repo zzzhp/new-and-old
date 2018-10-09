@@ -133,5 +133,5 @@
 		将预订topics并消费消息的程序成为consumer.
 		Kafka以集群的方式运行，可以由一个或多个服务组成，每个服务叫做一个broker.
 		创建topic命令  bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
-		
+		查看创建的topic  bin/kafka-topics.sh --list --zookeeper localhost:2181
 
